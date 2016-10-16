@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     MusicFX \
+    SnapdragonGallery \
+    SnapdragonMusic \
     LatinIME \
     libemoji \
     libsepol \

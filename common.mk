@@ -67,10 +67,6 @@ PRODUCT_COPY_FILES += \
    vendor/aosp/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
    vendor/aosp/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 endif
-
-# Substratum
-PRODUCT_COPY_FILES += \
-vendor/aosp/prebuilt/common/app/Substratum/Substratum.apk:system/app/Substratum/Substratum.apk
    
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
